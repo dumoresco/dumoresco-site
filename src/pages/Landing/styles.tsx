@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100vw;
+  height: 100vh;
   footer {
     display: Flex;
     justify-content: center;
@@ -8,6 +10,7 @@ export const Container = styled.div`
 
     margin: 20px;
     p {
+      font-size: 12px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,7 +20,7 @@ export const Container = styled.div`
   .container {
     max-width: 80%;
     width: 100%;
-
+    height: 100%;
     margin: 0 auto;
   }
 `;
