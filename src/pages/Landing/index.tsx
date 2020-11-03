@@ -22,11 +22,19 @@ const Landing: React.FC = () => {
             <strong>Eduardo</strong> Moresco
           </h1>
           <div className="social-media-items">
-            <a href="/" className="btn-item">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/eduardo-moresco-a44b11195/"
+              className="btn-item"
+            >
               <AiFillLinkedin size={24} />
               <span>LinkedIn</span>
             </a>
-            <a href="" className="btn-item">
+            <a
+              target="_blank"
+              href="https://github.com/dumoresco"
+              className="btn-item"
+            >
               <AiFillGithub size={24} />
 
               <span>Github</span>
@@ -49,19 +57,19 @@ const Landing: React.FC = () => {
             title="UI / UX Design"
             img={figma}
             alt="Figma icon"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae dignissim in quis orci convallis."
+            text="Apaixonado por criar soluções e experiências entendendo as necessidades do usuário criando uma interface fácil de usar e com boa experiência de interação. "
           />
           <Skills
             title="Front-End"
             img={frontEnd}
             alt="Front-End icon"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae dignissim in quis orci convallis."
+            text="Focado na criação de interfaces web alinhado com o UI design, atualmente utilizando HTML, CSS, Javascript e React."
           />
           <Skills
             title="Back-End"
             img={backEnd}
             alt="Back-End icon"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae dignissim in quis orci convallis."
+            text="Atualmente utilizando Node JS para criação de API REST e Mongo DB como banco de dados."
           />
         </div>
       </SkillsContainer>

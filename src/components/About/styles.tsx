@@ -123,7 +123,7 @@ export const AboutText = styled.div`
       margin: 0;
     }
 
-    .icon-option + .icon-option {
+    a + a {
       margin-left: 15px;
     }
   }

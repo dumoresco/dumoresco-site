@@ -11,7 +11,7 @@ import {
   FaInstagram,
   FaWhatsapp,
 } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+import { CgFileDocument } from "react-icons/cg";
 
 const About: React.FC = () => {
   return (
@@ -31,10 +31,30 @@ const About: React.FC = () => {
           estou focado em desenvolvimento front-end e UX/ UI Design.{" "}
         </p>
         <div className="contact-options">
-          <FaLinkedinIn className="icon-option" size={44} />
-          <FaInstagram className="icon-option" size={44} />
-          <FiMail className="icon-option" size={44} />
-          <FaWhatsapp className="icon-option" size={44} />
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/eduardo-moresco-a44b11195/"
+          >
+            <FaLinkedinIn className="icon-option" size={44} />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.instagram.com/dumoresco/?hl=pt-br"
+          >
+            <FaInstagram className="icon-option" size={44} />
+          </a>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1L3G-9oEJ2ywtzFb-8n6563yyO6OnrsIh/view?usp=sharing"
+          >
+            <CgFileDocument className="icon-option" size={44} />
+          </a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=555198316615"
+          >
+            <FaWhatsapp className="icon-option" size={44} />
+          </a>
         </div>
       </AboutText>
     </Container>
