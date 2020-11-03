@@ -8,9 +8,12 @@ export default createGlobalStyle`
     }
 
     body{
+        width: 100vw;
+        height: 100vh;
 
         background-color: var(--dark);
 
+        overflow-x: hidden;
 
         font-family: 'Poppins', sans-serif;
     }
